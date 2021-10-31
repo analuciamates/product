@@ -1,0 +1,54 @@
+.search__input {
+    padding: 20px;
+    background-color: #2C717C;
+    input {
+        height: 30px;
+        border-radius: 5px;
+    }
+
+    span {
+        padding: 0 0 0 15px;
+    }
+}
+
+.products__item {
+    list-style: none;
+    text-align: center;
+    width: 25%;
+    height: 420px;
+    display: inline-block;
+    padding: 0 25px;
+    vertical-align: top;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 25px;
+    background-color: #F0F096;
+    position: relative;
+
+    h4 {
+        color: #1A485E;
+    }
+
+    p {
+        font-size: 14px;
+        margin: 10px 0 0 0;
+    }
+
+    &__img {
+        display: block;
+        width: 200px;
+        height: 300px;
+        margin: auto;
+    }
+
+    &__link {
+        position: absolute;
+        margin-left: 30%;
+        bottom: 15px;
+        
+        a {
+            color: #1A485E;
+            text-decoration: none;
+        }
+    }
+}
