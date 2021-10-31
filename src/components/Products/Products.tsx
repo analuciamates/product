@@ -52,6 +52,7 @@ const Products = () => {
                                 <h4>{product.product_name}</h4>
                                 <img
                                     src={product.image_front_small_url}
+                                    alt="image produit"
                                     className="products__item__img"
                                 />
                                 <div className="products__item__link">

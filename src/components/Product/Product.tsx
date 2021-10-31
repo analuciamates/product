@@ -28,7 +28,7 @@ const Product = () => {
                         <h2>{product.product_name}</h2>
                         <h4>Catégories : </h4>
                         <p>{product.categories}</p>
-                        <img src={product.image_front_url}/>
+                        <img src={product.image_front_url} alt="image produit"/>
                         <h4>Allèrgenes</h4>
                         {product.allergens_hierarchy.map((prd)=> {
                             return (

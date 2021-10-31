@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import Products from './components/Products/Products'
 import Product from './components/Product/Product'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
